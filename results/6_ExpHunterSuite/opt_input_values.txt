@@ -1,0 +1,27 @@
+input_file	matrix.txt
+reads	2
+minlibraries	2
+filter_type	separate
+output_files	/mnt/scratch/users/bio_267_uma/elenarojano/NGS_projects/paraElena_last/results
+p_val_cutoff	0.05
+lfc	1.5
+modules	WDELN
+minpack_common	4
+target_file	experiment_design.txt
+model_variables	
+numerics_as_factors	TRUE
+string_factors	group,gender,smoking,stage
+numeric_factors	age
+WGCNA_memory	5000
+WGCNA_norm_method	DESeq2
+WGCNA_deepsplit	3
+WGCNA_min_genes_cluster	10
+WGCNA_detectcutHeight	0.995
+WGCNA_mergecutHeight	0.07
+WGCNA_all	FALSE
+WGCNA_blockwiseNetworkType	signed
+WGCNA_blockwiseTOMType	signed
+WGCNA_minCoreKME	0.7
+WGCNA_minKMEtoStay	0.5
+multifactorial	
+help	FALSE

@@ -1,0 +1,13 @@
+A	B
+model_organism	Human
+input_gene_id	E
+func_annot_db	KgR
+GO_subont	MBC
+analysis_type	o
+remote	
+save_query	FALSE
+pthreshold	0.1
+qthreshold	0.2
+cores	4
+task_size	10
+fc_colname	mean_logFCs
